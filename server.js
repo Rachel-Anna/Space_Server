@@ -60,4 +60,4 @@ const getISSPassTimes = (req, res) => {
 app.get('/iss-now', getCoordinates);
 app.get('/iss-pass', getISSPassTimes);
 
-app.listen(3001, () => { console.log(`App is running on port 3001`) });
+app.listen(3001);
